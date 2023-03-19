@@ -1,0 +1,41 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 3vh;
+    overflow-x: hidden;
+}
+
+.imgHeader{
+    height: 18vh;
+    margin-bottom: 2vh;
+    display: block;
+}
+
+.find{
+    max-width: 1020px;
+    width: 90vw;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap:24px 20px;
+}
+
+.googleButton{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@media(max-width:450px){
+    .imgHeader{
+        width: 100%;
+    }
+
+
+}

@@ -1,0 +1,27 @@
+.character{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.character__img{
+    height: 35vh;
+    display: block;
+    margin-bottom: 0.8vh;
+}
+
+.character__name{
+    font-weight: 400;
+    font-size: 5vh;
+    color:rgba(8, 31, 50, 1);
+    margin-bottom: 2.1vh;
+}
+
+.character__info{
+    font-weight: 500;
+    font-size: 2.1vh;
+    color: rgba(142, 142, 147, 1);
+    margin-bottom: 4vh;
+}
